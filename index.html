@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Frontend Mentor</title>
+  <script src="https://cdn.tailwindcss.com?plugins=forms,typography,aspect-ratio,line-clamp"></script>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body class="hello2" style="height: fit-content;">
+  <!-- <div class="container"> -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
+    crossorigin="anonymous"></script>
+  <!-- start nav bar -->
+
+  <nav class="navbar navbar-expand-lg">
+    <div class="container-fluid">
+      <div class="mx-2 my-0">
+        <ion-icon name="logo" class="text-5xl text-bg-black" style="font-weight: 900; font-family: Inter-Bold">W.
+        </ion-icon>
+      </div>
+      <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasDarkNavbar"
+        aria-controls="offcanvasDarkNavbar">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="offcanvas offcanvas-end bg-light" tabindex="-1" id="offcanvasDarkNavbar"
+        aria-labelledby="offcanvasDarkNavbarLabel">
+        <div class="offcanvas-header botton1">
+          <button type="button" class="btn" data-bs-dismiss="offcanvas" aria-label="close"
+            style="font-size: 45px; font-weight: 350;">X</button>
+        </div>
+        <div class="offcanvas-body">
+          <nav class="md:ml-auto flex flex-wrap items-center text-base justify-center mr-2 pl-5">
+            <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+              <li class="nav-item">
+                <a class="mr-5 mt-3 hover:text-orange-500 nav-link"
+                  style="cursor: pointer; font-size: 16px; font-weight: 600;">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="mr-5 mt-3 hover:text-orange-500 nav-link"
+                  style="cursor: pointer; font-size: 16px; font-weight: 600;">New</a>
+              </li>
+              <li class="nav-item">
+                <a class="mr-5 mt-3 hover:text-orange-500 nav-link"
+                  style="cursor: pointer; font-size: 16px; font-weight: 600;">Popular</a>
+              </li>
+              <li class="nav-item">
+                <a class="mr-5 mt-3 hover:text-orange-500 nav-link"
+                  style="cursor: pointer; font-size: 16px; font-weight: 600;">Trending</a>
+              </li>
+              <li class="nav-item">
+                <a class="mr-5 mt-3 hover:text-orange-500 nav-link"
+                  style="cursor: pointer; font-size: 16px; font-weight: 600;">Categories</a>
+              </li>
+            </ul>
+          </nav>
+        </div>
+      </div>
+    </div>
+  </nav>
+
+  <!-- start first main body -->
+  <div class="container text-center">
+    <div class="row">
+      <div class="col-sm-8">
+        <section class="text-gray-600 body-font">
+          <div class=" px-50 py-0 mx-auto flex flex-wrap">
+            <div class="lg:w-2/3 mx-auto">
+              <div class="img-fluid imagetag4">
+                <img id="image" src="image-web-3-desktop.jpg" alt="loading..">
+              </div>
+              <button type="button" class="btn btn-outline-primary"
+                onclick="document.getElementById('image').src='image1(desktop).jpg'">increase</button>
+              <button type="button" class="btn btn-outline-primary"
+                onclick="document.getElementById('image').src='image-web-3-desktop.jpg'">decrease</button>
+              <div class="flex flex-wrap -mx-2 maincont1">
+                <div class="px-2 w-1/2">
+                  <div class="flex flex-wrap w-full sm:py-7.6 py-9 sm:px-10 xs:py-10 px-1 relative">
+                    <div class="text-start relative z-10 w-full header2">
+                      <h2 class="">The Bright
+                        Future Of Web 3.0?</h2>
+                    </div>
+                  </div>
+                </div>
+                <div class="px-2 w-1/2">
+                  <div class="flex flex-wrap xs:py-15 sm:py-19 sm:px-10 px-2 relative para1">
+                    <p class="mb-8 leading-relaxed text-start">We dive into the next evolution of web that claims to put
+                      the power
+                      of
+                      the
+                      platforms back into the
+                      hands of the peoples. But is it really fulfilling its promise?</p>
+                    <button
+                      class="inline-flex text-white bg-orange-500 border-0 py-2 px-10 focus:outline-none hover:bg-black text-black rounded text-lg">READ
+                      MORE</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+      </div>
+
+      <div class="col-sm-4">
+        <div class="hello3 text-start">
+          <div class="bg-black text-white maintextgr1">
+            <div class="textgroup1">
+              <h2 class="text-orange-500 text1">New</h2>
+              <h3 class="text1-1">Hydrogen VS Electric Cars</h3>
+              <p class="text1-2">Will hydrogen-fueled cars ever catch up the EVs?</p>
+            </div>
+          </div>
+          <hr>
+          <div class="bg-black text-white">
+            <div class="textgroup2">
+              <h3 class="text2-1">The downsides of AI Artistry</h3>
+              <p class="text2-2">What are the possible adverse effects on demand AI image generation?</p>
+            </div>
+          </div>
+          <hr>
+          <div class="bg-black text-white">
+            <div class="textgroup3">
+              <h3 class="text3-1">Is VC Funding Drying Up?</h3>
+              <p class="text3-2">Private funding by VC firms is down 50% YOY. We take a look at what that means.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- start second main body -->
+
+    <div class="row mt-4">
+      <div class="col-sm mt-3">
+        <div class="p-0 lg:w-1/1">
+          <div
+            class="h-full flex lg:flex-row lg:justify-start lg:text-left flex-col items-center justify-center text-center container1">
+            <img alt="loading..."
+              class="imagetag1 flex-shrink-0 rounded-lg w-48 h-48 object-cover object-center lg:mb-0 sm:mb-0 mb-4"
+              src="image-retro-pcs.jpg">
+            <div class="flex-grow sm:pl-5 text-start text-5 textgroup4">
+              <h3 class="text-gray-500 mt-0 sm:mt-0 header1">01</h3>
+              <h1 class="sm:mt-1 text4">Reviving Retro PCs</h1>
+              <p class="sm:mt-1 text5">What happens when old PCs are given modern upgrades?</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-sm">
+        <div class="p-0 lg:w-1/1">
+          <div
+            class="h-full flex lg:flex-row lg:justify-start lg:text-left flex-col items-center justify-center text-center container1">
+            <img alt="loading..."
+              class="imagetag2 flex-shrink-0 rounded-lg w-48 h-48 object-cover object-center sm:mb-0 mb-4"
+              src="image-top-laptops.jpg">
+            <div class="flex-grow sm:pl-5 text-start text-5 textgroup4">
+              <h3 class="text-gray-500 mt-2 sm:mt-0 header1">02</h3>
+              <h1 class="sm:mt-3 text4">Top 10 Laptops of 2022.</h1>
+              <p class="sm:mt-3 text5">Our best picks for various needs and budgets.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-sm">
+        <div class="p-0 lg:w-1/1">
+          <div
+            class="h-full flex lg:flex-row lg:justify-start lg:text-left flex-col items-center justify-center text-center container1">
+            <img alt="loading..."
+              class="imagetag3 flex-shrink-0 rounded-lg w-48 h-48 object-cover object-center sm:mb-0 mb-4"
+              src="image-gaming-growth.jpg">
+            <div class="flex-grow sm:pl-5 text-start text-5 textgroup4">
+              <h3 class="text-gray-500 mt-2 sm:mt-0 header1">03</h3>
+              <h1 class="sm:mt-3 text4">The Growth of Gaming</h1>
+              <p class="sm:mt-3 text5">How the pendemic has sparked fresh opportuniti.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+</body>
+
+</html>
